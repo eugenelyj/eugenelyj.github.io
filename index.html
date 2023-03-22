@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'> -->
+</head>
+<title>Yijin Li</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- For arrangement -->
+<link rel="stylesheet" href="styles/w3.css">
+<!-- For icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+
+<!-- For utilities -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+  integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<!-- <link rel="stylesheet" href="styles/css/bootstrap.min.css"> -->
+
+<style>
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: Helvetica;
+    font-weight: 400;
+    color: #000000;
+  }
+
+  li,
+  p {
+    font-family: Helvetica;
+  }
+
+  body,
+  html {
+    height: 100%;
+    /* color: #777; */
+    color: #555;
+    font-size: 16px;
+    line-height: 1.8;
+  }
+
+  .pub-title {
+    /* font-family: monaco; */
+    font-weight: bold;
+    color: #000000;
+  }
+
+  .pub-conference {
+    /* font-family: "Lato"; */
+    font-family: Helvetica;
+    /* font-weight: bold; */
+  }
+
+  .pub-authors {
+    /* font-family: monaco; */
+    /* font-family: "Lato"; */
+    font-family: Helvetica;
+    /* font-style: italic; */
+    color: #000000;
+  }
+
+  .pub-highlight {
+    color: #e83015;
+    font-family: Helvetica;
+  }
+
+  .w3-wide {
+    letter-spacing: 12px;
+    margin-right: -12px;
+  }
+
+  .w3-hover-opacity {
+    cursor: pointer;
+  }
+
+  .pub {
+    font-style: Helvetica;
+  }
+
+  /* Turn off parallax scrolling for tablets and phones */
+  @media only screen and (max-device-width: 1600px) {
+
+    .bgimg-1 {
+      background-attachment: scroll;
+      min-height: 400px;
+    }
+  }
+
+  .hero-overlay .btn {
+    color: #fff;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  .btn-primary {
+    border-color: #0095eb !important;
+    background: #0095eb !important;
+  }
+
+  .btn-primary:hover,
+  .btn-primary:active,
+  .btn-primary.active,
+  .btn-primary:visited,
+  .open>.dropdown-toggle.btn-primary {
+    background: #0095eb !important;
+  }
+
+  .btn-light {
+    border-color: #fff !important;
+    background: #fff !important;
+  }
+
+  .btn-light:hover,
+  .btn-light:active,
+  .btn-light.active {
+    background: rgba(0, 0, 0, 0.4) !important;
+  }
+
+  .btn-outline {
+    background-color: transparent !important;
+    color: inherit;
+    transition: all .5s;
+  }
+
+  .btn-primary.btn-outline {
+    color: #0095eb !important;
+    border-color: #0095eb !important;
+  }
+
+  .btn-primary.btn-outline:focus {
+    color: #0095eb !important;
+  }
+
+  .btn-primary.btn-outline:active {
+    color: #fff !important;
+  }
+
+  .btn-light.btn-outline {
+    color: #fff !important;
+    border-color: #fff !important;
+  }
+
+  .btn-light.btn-outline:focus {
+    color: #fff !important;
+  }
+
+  .btn-light.btn-outline:active {
+    color: transparent !important;
+  }
+
+  .btn-success.btn-outline {
+    color: #5cb85c;
+  }
+
+  .btn-info.btn-outline {
+    color: #5bc0de;
+  }
+
+  .btn-warning.btn-outline {
+    color: #f0ad4e;
+  }
+
+  .btn-danger.btn-outline {
+    color: #d9534f;
+  }
+
+  .btn-primary.btn-outline:hover,
+  .btn-light.btn-outline:hover,
+  .btn-success.btn-outline:hover,
+  .btn-info.btn-outline:hover,
+  .btn-warning.btn-outline:hover,
+  .btn-danger.btn-outline:hover {
+    color: #fff !important;
+  }
+
+  video {
+    width: 100%;
+    height: auto;
+    /* max-height: 400px; */
+  }
+</style>
+
+<body>
+
+  <!-- 关于部分 -->
+  <div class="w3-content w3-container w3-padding-16" id="about">
+    <div class="w3-row">
+      <div class="w3-col m3 w3-center w3-padding-large">
+        <img src="materials/avatar.jpeg" class="w3-circle w3-image " alt="Photo of Me" width="190" height="190">
+        <div class="w3-large w3-section">
+          <a href="mailto:496734971@qq.com">Email</a> &nbsp/&nbsp
+          <a href="https://github.com/eugenelyj">GitHub</a>
+          <a href="https://scholar.google.com/citations?user=KCooJasAAAAJ&hl=en">Google Scholar</a>
+
+        </div>
+      </div>
+
+      <div class="w3-col m9 w3-padding-large">
+        <h2 style="color:#000000;text-align: center">Yijin Li</h2>
+        <div style="text-align: center;font-weight: 600; font-size: large;">李易瑾</div>
+        <p>
+          I am a Ph.D. student at the <a
+            href="https://www.github.com/zju3dv">ZJU3DV group</a> of State Key Lab of CAD&CG, Zhejiang University, advised by <a
+            href="http://www.cad.zju.edu.cn/home/gfzhang/">Prof. Guofeng Zhang</a> and <a
+            href="https://zhpcui.github.io/">Prof. Zhaopeng Cui</a>.
+          Before that, I got my bachelor degree from Sun Yat-Sen University.
+          I have a broader interest in 3D vision technologies.
+        </p>
+      </div>
+    </div>
+
+
+
+    <!-- 标志 -->
+    <!-- <div class="w3-row-padding w3-center w3-hide-small">
+      <div class="w3-col m3 w3-center w3-padding-large">
+        <img src="images/logos/ZJU.png" style="width:26%" alt="Zhejiang University">
+      </div>
+      <div class="w3-col m3 w3-center w3-padding-large">
+        <img src="images/logos/cse_zju.png" style="width:36%" alt="Zhejiang University">
+      </div>
+
+      <div class="w3-col m3 w3-center w3-padding-large">
+        <img src="images/logos/ckc.png" style="width:96%" alt="CKC Honor College">
+      </div>
+
+      <div class="w3-col m3 w3-center w3-padding-large">
+        <img src="images/logos/penn.jpg" style="width:80%" alt="University of Pennsylvania">
+      </div>
+
+    </div> -->
+  </div>
+
+  <!-- Publication and Projects 项目 -->
+  <div class="w3-content w3-container w3-padding-12" id="portfolio">
+    <h3 class="w3-center" style="color: #000000;">Publication</h3>
+
+    <!-- Publication项 -->
+
+
+    <div class="w3-row-padding  w3-section">
+      <div class="w3-col m6 w3-center">
+        <div style="width: 85%; height: 80%; margin-left: auto; margin-right: auto;">
+          <video muted autoplay loop>
+            <source src="publications/blinkflow.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+      <div class="w3-col m6 w3-">
+        <div class="pub-title">BlinkFlow: A Dataset to Push the Limits of Event-based Optical Flow Estimation </div>
+        Arxiv 2023
+        <div class="pub-authors">
+          <b>Yijin Li</b>, Zhaoyang Huang , Shuo Chen, Xiaoyu Shi, Hongsheng Li, Hujun Bao, Zhaopeng Cui, Guofeng Zhang
+        </div>
+        <a class="btn btn-primary btn-outline btn-sm" href="https://arxiv.org/abs/2303.07716" target="_blank"
+          rel="noopener">
+          Paper
+        </a>
+        </div>
+    </div>
+
+    <div class="w3-row-padding  w3-section">
+      <div class="w3-col m6 w3-center">
+        <div style="width: 85% ; margin-left: auto; margin-right: auto;">
+          <video muted autoplay loop>
+            <source src="publications/pats.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+      <div class="w3-col m6 w3-">
+        <div class="pub-title">PATS: Patch Area Transportation with Subdivision for Local Feature Matching </div>
+        CVPR 2023
+        <!-- <div class="pub-highlight">Ranks 1st on Sintel Optical Flow benchmark on Mar. 1th, 2023 </div> -->
+        <div class="pub-authors">
+          Junjie Ni*, <b>Yijin Li*</b>, Zhaoyang Huang, Hongsheng Li, Hujun Bao, Zhaopeng Cui, Guofeng Zhang
+        <b><br>(equal contribution)</b>
+        </div>
+        <a class="btn btn-primary btn-outline btn-sm" href="https://arxiv.org/abs/2303.07700" target="_blank"
+          rel="noopener">
+          Paper
+        </a>
+        <a class="btn btn-primary btn-outline btn-sm" href="https://zju3dv.github.io/pats/" target="_blank"
+          rel="noopener">
+          Project Page
+        </a>
+      </div>
+    </div>
+
+
+    <div class="w3-row-padding  w3-section">
+      <div class="w3-col m6 w3-center">
+        <div style="width: 85% ; margin-left: auto; margin-right: auto;">
+          <video muted autoplay loop>
+            <source src="publications/deltar.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+      <div class="w3-col m6 w3-">
+        <div class="pub-title">DELTAR: Depth Estimation from a Light-weight ToF Sensor And RGB Image</div>
+        ECCV 2022
+        <!-- <div class="pub-highlight">Ranks 1st on Sintel Optical Flow benchmark on Mar. 1th, 2023 </div> -->
+        <div class="pub-authors">
+          <b>Yijin Li</b>, Xinyang Liu, Wenqi Dong, Han Zhou, Hujun Bao, Guofeng Zhang, Yinda Zhang, Zhaopeng Cui
+        </div>
+        <a class="btn btn-primary btn-outline btn-sm" href="https://arxiv.org/pdf/2209.13362.pdf" target="_blank"
+          rel="noopener">
+          Paper
+        </a>
+        <a class="btn btn-primary btn-outline btn-sm" href="https://zju3dv.github.io/deltar/" target="_blank"
+          rel="noopener">
+          Project Page
+        </a>
+        <a class="btn btn-primary btn-outline btn-sm" href="https://github.com/zju3dv/deltar" target="_blank"
+          rel="noopener">
+          Code
+        </a>
+      </div>
+    </div>
+
+
+
+    <div class="w3-row-padding w3-section" onmouseout="nr_in_a_room_stop()" onmouseover="nr_in_a_room_start()">
+      <div class="w3-col m6 w3-center">
+        <div style="width: 85% ; margin-left: auto; margin-right: auto;">
+          <video muted autoplay loop>
+            <source src="publications/scene_tour_v2.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+      <div class="w3-col m6 w3-">
+        <div class="pub-title">Neural Rendering in a Room: Amodal 3D Understanding and Free-Viewpoint Rendering for the Closed Scene Composed of Pre-Captured Objects
+        </div>
+        <div class="pub-conference">
+          ACM Transactions on Graphics (SIGGRAPH 2022)
+        </div>
+        <div class="pub-authors">
+          Bangbang Yang, Yinda Zhang, <b>Yijin Li</b>, Zhaopeng Cui, Sean Fanello, Hujun Bao, Guofeng Zhang
+        </div>
+        <a class="btn btn-primary btn-outline btn-sm" href="https://arxiv.org/abs/2205.02714" target="_blank"
+          rel="noopener">
+          Paper
+        </a>
+        <a class="btn btn-primary btn-outline btn-sm" href="https://zju3dv.github.io/nr_in_a_room/" target="_blank"
+          rel="noopener">
+          Project Page
+        </a>
+        <a class="btn btn-primary btn-outline btn-sm" href="https://github.com/zju3dv/nr_in_a_room/">
+          Code
+        </a>
+      </div>
+    </div>
+
+    <div class="w3-row-padding w3-section" onmouseout="nr_in_a_room_stop()" onmouseover="nr_in_a_room_start()">
+      <div class="w3-col m6 w3-center">
+        <div style="width: 85% ; margin-left: auto; margin-right: auto;">
+        <video muted autoplay loop>
+          <source src="publications/obj_nerf_small_teaser_v2.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        </div>
+      </div>
+      <div class="w3-col m6 w3-">
+        <div class="pub-title">Learning Object-Compositional Neural Radiance Field for Editable Scene Rendering
+        </div>
+        <div class="pub-conference">
+          ICCV 2021
+        </div>
+        <div class="pub-authors">
+          Bangbang Yang, Yinda Zhang, Yinghao Xu, <b>Yijin Li</b>, Han Zhou, Hujun Bao, Guofeng Zhang, Zhaopeng Cui
+        </div>
+        <a class="btn btn-primary btn-outline btn-sm" href="https://arxiv.org/abs/2109.01847" target="_blank"
+          rel="noopener">
+          Paper
+        </a>
+        <a class="btn btn-primary btn-outline btn-sm" href="https://zju3dv.github.io/object_nerf/" target="_blank"
+          rel="noopener">
+          Project Page
+        </a>
+        <a class="btn btn-primary btn-outline btn-sm" href="https://github.com/zju3dv/object_nerf/">
+          Code
+        </a>
+      </div>
+    </div>
+
+    <div class="w3-row-padding  w3-section">
+      <div class="w3-col m6 w3-center">
+        <div style="width: 85% ; margin-left: auto; margin-right: auto;">
+          <video muted autoplay loop>
+            <source src="publications/slide_gcn.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+      <div class="w3-col m6 w3-">
+        <div class="pub-title">Graph-based Asynchronous Event Processing for Rapid Object Recognition
+        </div>
+        <div class="pub-conference">
+        ICCV 2021
+        </div>
+        <div class="pub-authors">
+          <b>Yijin Li</b>, Han Zhou, Bangbang Yang, Ye Zhang, Zhaopeng Cui, Hujun Bao, Guofeng Zhang
+        </div>
+        <a class="btn btn-primary btn-outline btn-sm" href="https://openaccess.thecvf.com/content/ICCV2021/papers/Li_Graph-Based_Asynchronous_Event_Processing_for_Rapid_Object_Recognition_ICCV_2021_paper.pdf" target="_blank"
+          rel="noopener">
+          Paper
+        </a>
+        <a class="btn btn-primary btn-outline btn-sm" href="https://zju3dv.github.io/slide_gcn/" target="_blank"
+          rel="noopener">
+          Project Page
+        </a>
+      </div>
+    </div>
+
+    <div class="w3-row-padding  w3-section">
+      <div class="w3-col m6 w3-center">
+        <img src="publications/vsnet.gif" style="width:85%" alt="vs-png">
+      </div>
+      <div class="w3-col m6 w3-">
+        <div class="pub-title">VS-Net: Voting with Segmentation for Visual Localization
+        </div>CVPR 2021
+        <div class="pub-authors">
+          <i>Zhaoyang Huang*, Han Zhou*, <b>Yijin Li</b>, Bangbang Yang, Yan Xu,
+            Xiaowei Zhou, Hujun Bao, Guofeng Zhang, Hongsheng Li</i>
+        <br>(equal contribution)
+        </div>
+        <a class="btn btn-primary btn-outline btn-sm" href="https://arxiv.org/abs/2105.10886" target="_blank"
+          rel="noopener">
+          Paper
+        </a>
+        <a class="btn btn-primary btn-outline btn-sm" href="https://drinkingcoder.github.io/publication/vs-net" target="_blank"
+          rel="noopener">
+          Project Page
+        </a>
+        <a class="btn btn-primary btn-outline btn-sm" href="https://github.com/zju3dv/VS-Net">
+          Code
+        </a>
+      </div>
+    </div>
+
+    <div class="w3-row-padding  w3-section">
+      <div class="w3-col m6 w3-center">
+        <img src="publications/niid.gif" style="width: 85%" alt="pats-png">
+      </div>
+      <div class="w3-col m6 w3-">
+        <div class="pub-title">NIID-Net: Adapting Surface Normal Knowledge for Intrinsic Image
+          Decomposition in Indoor Scenes
+          </div>
+          TVCG 2020
+          <div class="pub-authors">
+        <i>Jundan Luo*, Zhaoyang Huang*, <b>Yijin Li</b>, Xiaowei Zhou, Guofeng Zhang, Hujun Bao</i> 
+        <br>(equal contribution)
+        </div>
+        <!-- <br> -->
+        <a class="btn btn-primary btn-outline btn-sm" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9199573" target="_blank"
+          rel="noopener">
+          Paper
+        </a>
+        <a class="btn btn-primary btn-outline btn-sm" href="https://zju3dv.github.io/niid/" target="_blank"
+          rel="noopener">
+          Project Page
+        </a>
+        <a class="btn btn-primary btn-outline btn-sm" href="https://github.com/zju3dv/NIID-Net">
+          Code
+        </a>
+      </div>
+    </div>
+
+
+    <!-- <p> -->
+    <div class="w3-content w3-container w3-padding-12" id="portfolio">
+      <h3 class="w3-center" style="color: #000000;">Experience</h3>
+      <li>Ph.D in Computer Science at State Key Lab of CAD&CG of Zhejiang University.</li>
+      <li>Research intern at Sensetime, Hangzhou.</li>
+      <li>B.Eng. in Electronic Engineering at Sun Yat-Sen University.</li>
+    </div>
+
+  <br>
+
+    <!-- <p> -->
+    <div class="w3-content w3-container w3-padding-12" id="portfolio">
+      <h3 class="w3-center" style="color: #000000;">Selected Awards</h3>
+      <li>Transfar Scholarship Third Prize: 2021</li>
+      <li>Second Prize in China Graduate AI Innovation Competition: 2021 (Ranked 12/1500)</li>
+      <li>National Scholarship: 2017 (Ranked 1/114)</li>
+    </div>
+
+  <br>
+
+    <!-- </p> -->
+    <!-- Footer -->
+
+    <script>
+      // Modal Image Gallery
+      function onClick(element) {
+        document.getElementById("img01").src = element.src;
+        document.getElementById("modal01").style.display = "block";
+        var captionText = document.getElementById("caption");
+        captionText.innerHTML = element.alt;
+      }
+
+      // Change style of navbar on scroll
+      window.onscroll = function () { myFunction() };
+      function myFunction() {
+        var navbar = document.getElementById("myNavbar");
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+      }
+
+      // Used to toggle the menu on small screens when clicking on the menu button
+      function toggleFunction() {
+        var x = document.getElementById("navDemo");
+        if (x.className.indexOf("w3-show") == -1) {
+          x.className += " w3-show";
+        } else {
+          x.className = x.className.replace(" w3-show", "");
+        }
+      }
+    </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-V09QFKH5V2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+
+      gtag('config', 'G-V09QFKH5V2');
+    </script>
+ -->
+</body>
+
+</html>
